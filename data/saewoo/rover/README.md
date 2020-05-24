@@ -13,3 +13,7 @@ The rover starts at F and goes to D then back to F.
 *  First two lines are comments
 *  First comment line has two numbers, the first number is the time on the dongle in milliseconds.  This corresponds to the 2nd number which is the unix epoch time 
 *  Second comment line, labels the columns
+
+## jupyter notebook
+
+* [first_look.ipynb](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/.ipynb),
