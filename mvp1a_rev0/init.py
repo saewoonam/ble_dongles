@@ -15,7 +15,7 @@ def flash():
 
     print('Trying to program dongle on: ', dongle_port[0]);
 
-    cmd = ['nrfutil',  'dfu',  'usb-serial',  '-pkg',  'bt_cdc_fs.zip',  '-p', dongle_port[0]]
+    cmd = ['nrfutil',  'dfu',  'usb-serial',  '-pkg',  'bt_cdc_fs_ch.zip',  '-p', dongle_port[0]]
     process = subprocess.Popen(cmd,
                          stdout=subprocess.PIPE, 
                          stderr=subprocess.PIPE)
