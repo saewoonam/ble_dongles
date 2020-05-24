@@ -6,6 +6,7 @@ The observers are actually dongles that emit and record bluetooth packets
 Here is the layout of dongle
 
 F-2mgap-C-2mgap-E-2mgap-B&A-2mgap-D
+[https://docs.google.com/presentation/d/e/2PACX-1vQmKY7YgwkGwYskTLtf_obp6kV4nrsdHd-EI-dQvxE9vlsJUOVtINvgRnCSYnO22aXK_uj2QmCO9Bwg/pub?start=false&loop=false&delayms=3000] diagrams
 
 The rover starts at F and goes to D then back to F.
 
