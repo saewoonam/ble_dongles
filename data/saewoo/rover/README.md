@@ -16,4 +16,4 @@ The rover starts at F and goes to D then back to F.
 
 ## jupyter notebook
 
-* [first_look.ipynb](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/.ipynb),
+* [first_look.ipynb](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/saewoonam/ble_dongles/master/data/saewoo/rover/first_look_matplotlib.ipynb), my attempt to link the notebook
