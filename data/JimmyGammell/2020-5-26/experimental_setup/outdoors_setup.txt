@@ -1,0 +1,4 @@
+ - All experiments were performed outdoors, with receiver and transmitter modules at least 5 feet from obstructions.
+ - For PCB trace antennas (bluetooth modules and PCB trace antennas for RFM69HCW), traces were pointed towards one-another.
+ - The jug of water used to block radios was roughly a rectangular prism, 20cm x 30cm x 20cm b x w x h, with b parallel to the direction of transmission and w perpindicular to the direction of transmission.
+ 
