@@ -2,6 +2,6 @@
  - Modifications:
    - readRSSI() now returns twice the RSSI - original code dropped last bit
    - All methods are now public
-   - 0dBm version: removed code that turns on 
+   - 0dBm version: removed code that configures radio for high-power mode
  - +20dBm configures radio for maximum transmitter power (supported by original library). 0dBm configures for 0dBm transmitter power.
    - For other power levels, reference pages 21, 22 of datasheet https://github.com/sparkfun/RFM69HCW_Breakout/tree/master/Libraries/Arduino/RFM69 - not straightforward, and unsupported by original library. Requires direct modification of registers.
