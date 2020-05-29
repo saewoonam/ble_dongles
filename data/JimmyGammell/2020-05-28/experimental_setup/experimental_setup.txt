@@ -1,0 +1,11 @@
+ - Radios were attached to stands made of PVC pipe.
+   - 2' above the ground
+   - 1 meter between antennae
+ - 4 experiments were conducted for each antenna - TX position constant, and RX position varied
+   - Experiment 1: yaw of RX antenna varied
+     - Only experiment in which positions of breadboard and ground plane in radio vary relative to line-of-sight between antennae
+   - Experiment 2: roll of RX antenna varied
+   - Experiment 3: pitch of RX antenna varied
+   - Experiment 4: angle of line-of-sight varied, over circle with constant radius
+     - Relative orientation between antennae constant
+     - To get a sense of how impactful nearby obstacles are for experiments
