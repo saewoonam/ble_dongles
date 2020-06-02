@@ -1,0 +1,23 @@
+ - orientation_exp1: yaw
+   - rotate stand around axis of antenna
+   - arduino USB-C ports initially West
+   - PCB trace antennas: initially facing each other
+   - RX rotated CCW in 45deg increments
+   - TX rotated CW in 45deg increments
+ - orientation_exp2: pitch
+   - arduino USB-C ports initially West
+   - PCB trace antennas: initially facing each other
+   - RX rotated CCW facing East, in 45deg increments
+   - TX rotated CW facing East, in 45deg increments
+ - orientation_exp3: roll
+   - arduino USB-C ports initially North
+   - PCB trace antennas: initially facing each other
+   - RX rotated CCW facing North, in 45deg increments
+   - TX rotated CW facing North, in 45deg increments
+ - orientation_exp4: position near testing location
+   - arduino USB-C ports initially North
+   - RX rotated CCW facing North, in 45deg increments - string kept taught
+   - TX rotated in place to preserve orientation relative to RX
+ - distance_blocked:
+   - water filled 8" high
+   - arduino USB-C ports initially West
