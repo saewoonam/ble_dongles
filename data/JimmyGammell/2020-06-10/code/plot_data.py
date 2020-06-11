@@ -24,7 +24,7 @@ ref_line = dict(color='white', width=1)
 # Plot yaw data
 for antenna in antennas:
     fig = make_subplots(rows=2, cols=1,
-                        subplot_titles=['Responder RSSI vs. yaw',
+                        subplot_titles=['Initiator RSSI vs. yaw',
                                         'Calculated distance vs. yaw'],
                         shared_xaxes=True)
     rssi_hist2d = []
@@ -77,14 +77,14 @@ for antenna in antennas:
                              'xanchor': 'center', 'yanchor': 'top', 'y': .95, 'x': .5})
     fig.update_xaxes(title='Angle (°)', row=2, col=1)
     fig.update_layout(showlegend=False)
-    fig.update_yaxes(title_text='Responder RSSI', row=1, col=1)
+    fig.update_yaxes(title_text='Initiator RSSI (dBm)', row=1, col=1)
     fig.update_yaxes(title_text='Calculated distance (m)', row=2, col=1)
     fig.write_image(os.path.join(output_directory, 'orientation_exp1_%s.png'%(antenna)))
 
 # Plot pitch data
 for antenna in antennas:
     fig = make_subplots(rows=2, cols=1,
-                        subplot_titles=['Responder RSSI vs. pitch',
+                        subplot_titles=['Initiator RSSI vs. pitch',
                                         'Calculated distance vs. pitch'],
                         shared_xaxes=True)
     rssi_hist2d = []
@@ -137,14 +137,14 @@ for antenna in antennas:
                              'xanchor': 'center', 'yanchor': 'top', 'y': .95, 'x': .5})
     fig.update_xaxes(title='Angle (°)', row=2, col=1)
     fig.update_layout(showlegend=False)
-    fig.update_yaxes(title_text='Responder RSSI', row=1, col=1)
+    fig.update_yaxes(title_text='Initiator RSSI (dBm)', row=1, col=1)
     fig.update_yaxes(title_text='Calculated distance (m)', row=2, col=1)
     fig.write_image(os.path.join(output_directory, 'orientation_exp2_%s.png'%(antenna)))
 
 # Plot roll data
 for antenna in antennas:
     fig = make_subplots(rows=2, cols=1,
-                        subplot_titles=['Responder RSSI vs. roll',
+                        subplot_titles=['Initiator RSSI vs. roll',
                                         'Calculated distance vs. roll'],
                         shared_xaxes=True)
     rssi_hist2d = []
@@ -197,14 +197,14 @@ for antenna in antennas:
                              'xanchor': 'center', 'yanchor': 'top', 'y': .95, 'x': .5})
     fig.update_xaxes(title='Angle (°)', row=2, col=1)
     fig.update_layout(showlegend=False)
-    fig.update_yaxes(title_text='Responder RSSI', row=1, col=1)
+    fig.update_yaxes(title_text='Initiator RSSI (dBm)', row=1, col=1)
     fig.update_yaxes(title_text='Calculated distance (m)', row=2, col=1)
     fig.write_image(os.path.join(output_directory, 'orientation_exp3_%s.png'%(antenna)))
 
 # Plot position data
 for antenna in antennas:
     fig = make_subplots(rows=2, cols=1,
-                        subplot_titles=['Responder RSSI vs. position',
+                        subplot_titles=['Initiator RSSI vs. position',
                                         'Calculated distance vs. position'],
                         shared_xaxes=True)
     rssi_hist2d = []
@@ -257,7 +257,7 @@ for antenna in antennas:
                              'xanchor': 'center', 'yanchor': 'top', 'y': .95, 'x': .5})
     fig.update_xaxes(title='Angle (°)', row=2, col=1)
     fig.update_layout(showlegend=False)
-    fig.update_yaxes(title_text='Responder RSSI', row=1, col=1)
+    fig.update_yaxes(title_text='Initiator RSSI (dBm)', row=1, col=1)
     fig.update_yaxes(title_text='Calculated distance (m)', row=2, col=1)
     fig.write_image(os.path.join(output_directory, 'orientation_exp4_%s.png'%(antenna)))
 
@@ -360,6 +360,6 @@ for antenna in antennas:
     fig.update_xaxes(title='Separation (m)', row=2, col=1)
     fig.update_xaxes(title='Separation (m)', row=2, col=2)
     fig.update_layout(showlegend=False)
-    fig.update_yaxes(title_text='Responder RSSI', row=1, col=1)
+    fig.update_yaxes(title_text='Initiator RSSI (dBm)', row=1, col=1)
     fig.update_yaxes(title_text='Calculated distance (m)', row=2, col=1)
     fig.write_image(os.path.join(output_directory, 'distance_%s.png'%(antenna)))
