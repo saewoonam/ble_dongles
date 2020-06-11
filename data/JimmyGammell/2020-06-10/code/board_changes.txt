@@ -1,0 +1,10 @@
+ - Changed TX power to GAP_TX_POWER_0_dBm in ble_range_dte_task.c
+   - Reduce TX power to 0dBm
+ - Changed is_initiator to true for initiator and false for responder in ble_range_dte_task.c
+   - Ensure each board is configured correctly
+ - Changed dg_configUSE_ProDK to 0 in custom_config_qspi.h
+   - Ensure build for USB board, not PRO board
+ - Changed dg_configUSE_PSP27801 to 1 in custom_config_qspi.h
+   - Enable LCD screen
+ - Changed CONFIG_RETARGET_UART_BAUDRATE to HW_UART_BAUDRATE_9600 in config.c
+   - Lower baud rate - see if improves reliability
